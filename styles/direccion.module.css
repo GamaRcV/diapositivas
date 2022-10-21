@@ -1,0 +1,21 @@
+.btnnext,
+.btnprev {
+ display: none;
+}
+@media(min-width:768px){
+    .btnprev{
+        display: unset;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    .btnnext{
+        display: unset;
+        position: absolute;
+        right: 0;
+        top:50%;
+        transform: translateY(-50%);
+        
+    }
+}

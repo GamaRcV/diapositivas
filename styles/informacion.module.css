@@ -1,0 +1,141 @@
+.avicii{
+    background-color: var(--white);
+    margin: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    color: var(--primary);
+    padding: 2rem 0;
+}
+.flex{
+    display: flex;
+    flex-direction: column-reverse;
+}
+@media(min-width:920px){
+    .flex{
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 0 0 10px;
+        
+    }
+}
+.avicii p {
+    font-weight: 700;
+}
+@media(min-width:768px){
+    .avicii{
+        
+        font-size: 4rem;
+        
+    }
+}
+@media(min-width:920px){
+    .tab{
+        transition: all;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+        
+        
+    }
+}
+.info button{
+    background:none;
+	color: var(--primary);
+	border: none;
+    border-radius: .5rem;
+	padding: 1rem;
+    margin-bottom: 3rem;
+	cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 300ms;
+	
+}
+.info button:hover{
+    color: white;
+    background-color: var(--primary);
+}
+.info{
+    background-color: var(--white);
+    padding: 0 2rem;
+    
+}
+.modify{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:8;
+    overflow:hidden;
+}
+
+.active {
+    display: none;
+}
+
+
+@media(min-width:768px){
+    .info{
+        padding: 0 8rem;
+    }
+}
+
+.imagen {
+    border-radius: 1rem;
+    
+    width: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    
+}
+@media(min-width:920px){
+    .imagen{
+    
+    height: 30rem;
+    margin-bottom: 4rem;
+    object-fit:cover;
+}
+}
+.chiquita{
+    width: 90%;
+    box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
+    
+}
+
+@media(min-width:768px){
+    .chiquita{
+        margin-top: 2rem;
+        display: inline-block;
+        align-self: baseline;
+        height: 30rem;
+        object-fit: cover;
+    }
+}
+
+.subtitulo{
+    font-weight: 500;
+}
+.encabezado{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+@media(min-width:768px){
+    .encabezado{
+        font-size: 4rem;
+    }
+}
+
+.titulo{
+    font-weight: 700;
+}
+@media(min-width:768px){
+    .titulo{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .subtitulo{
+        font-size: 2.5rem;    
+    }
+}

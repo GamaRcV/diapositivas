@@ -1,0 +1,85 @@
+:root {
+  --primary: #247cfc;
+  --black: #262626;
+  --white: #FFF;
+  --fuente-principal: 'Outfit', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+@media(min-width:768px){
+  html {
+    font-size: 70%;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--black);
+  font-size: 2rem;
+  font-family: var(--fuente-principal);
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media(min-width:768px){
+  [class*="contenedor"], 
+main {
+  width: 100%;
+  margin: 0;
+  
+}
+}
+[class*="heading"] {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary);
+  margin: 5rem 0;
+}
+.error,
+.error-enlace{
+  color: var(--white);
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 15rem;
+  font-weight: 600;
+}
+.error-enlace{
+  font-size: 1.8rem;
+  display: block;
+  text-decoration: none;
+  color: var(--primary);
+}
+.btnnext,
+.btnprev {
+ display: none;
+}
+@media(min-width:768px){
+    .btnprev{
+        display: unset;
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    .btnnext{
+        display: unset;
+        position: fixed;
+        right: 0;
+        top:50%;
+        transform: translateY(-50%);
+        
+    }
+}
+.pmodify{
+  display:-webkit-box;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
