@@ -11,13 +11,13 @@ export default function Footer() {
           <Link href='/'>
             Inicio
           </Link>
-          <Link href='/nosotros'>
+          <Link href='/temario'>
             Temario
           </Link>
-          <Link href='/tienda'>
+          <Link href='/informacion'>
             Informacion
           </Link>
-          <Link href='/blog'>
+          <Link href='/nosotros'>
             Nosotros
           </Link>
 
