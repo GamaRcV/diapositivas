@@ -14,7 +14,11 @@ export default function Footer() {
           <Link href='/temario'>
             Temario
           </Link>
+<<<<<<< HEAD
           <Link href='/informacio'>
+=======
+          <Link href='/informacion'>
+>>>>>>> origin/main
             Informacion
           </Link>
           <Link href='/nosotros'>
