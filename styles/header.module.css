@@ -45,6 +45,16 @@
     transition-property: background-color;
     transition-duration: 300ms;
 }
+@media(min-width:920px){
+    .navegacion a{
+        font-size: 1.6rem;
+    }
+}
+@media(min-width:1921px){
+    .navegacion a{
+        font-size: 2rem;
+    }
+}
 .navegacion a:hover,
 .active{
     background-color: var(--primary);

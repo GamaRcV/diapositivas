@@ -9,7 +9,7 @@ export default function Temario() {
       title={'Temario'}
       description={'Contenido de todas las diapositivas de los equipos'}
     >
-      <main  className={`conenedor ${styles.conten} `}>
+      <main  className={styles.conten}>
         <h1 className='heading'>Temario</h1>
         <div className={styles.grid}>
           <div className={styles.equipo}>

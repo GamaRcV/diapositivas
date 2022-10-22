@@ -19,10 +19,15 @@ html {
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--white);
   font-size: 2rem;
   font-family: var(--fuente-principal);
   line-height: 1.5;
+}
+@media(min-width:1921px){
+  body{
+    background-color: var(--black);
+  }
 }
 img {
   max-width: 100%;
@@ -31,8 +36,8 @@ img {
 @media(min-width:768px){
   [class*="contenedor"], 
 main {
-  width: 100%;
-  margin: 0;
+  width: min(95%, 140rem);
+  margin: 3rem auto;
   
 }
 }
