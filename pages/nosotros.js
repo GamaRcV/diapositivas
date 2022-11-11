@@ -13,19 +13,38 @@ export default function Nosotros() {
         <h1 className={styles.avicii}>Nuestro Equipo</h1>
         
         <div className={styles.info}>
-        
-        <Image className={styles.imagen} src='/img/rey.jpg' width={1920} height={300} alt='Imagen QFB' />
-        
           <p>
-            prueba
-          Un Químico Farmacéutico Biólogo (QFB) aplica los principios químicos y biológicos, en la producción de bienes y prestación de servicios para la preservación y recuperación de la salud.<br />
-            El profesional de esta área reúne las características necesarias para su desempeño profesional en las áreas analítica, de diagnóstico clínico, farmacéutica y de investigación, resultado del equilibrio entre las ciencias básicas, biomédicas, farmacéuticas y humanísticas.
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-            ¿Por qué lo usamos?
-            Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
-            ¿De dónde viene?
+          
+          <div className={styles.flex}>
+          <Image className={styles.imagen} src='/img/equipo.png' width={1920} height={300} alt='Imagen Equipo' title='Nuestro Equipo' />
+          <div>
+          <h3>Integrantes</h3>
+            <li>
+              Reyna Judith López García
+            </li>
+            <li>
+              Alma Rosa Alquisira Herrera
+            </li>
+            <li>
+              Dulce Saray Alvarez Sánchez
+            </li>
+            <li>
+              Ximena Ferrer Sánchez
+            </li>
+            <li>
+              Obed Olan Domínguez
+            </li>
+          </div>
+          
+          </div>
+          
+          </p>
+          <p>
+          Si quieres ser realmente grande, tienes que esforzarte tan duro en ser un gran miembro del equipo, como lo haces en ser un gran jugador. Esto es tan cierto para un atleta como para cualquier profesión. Cuando nos esforzamos por ser un gran miembro del equipo, hacemos mejores a los que nos rodean (nuestro equipo).<br/>
+          Tres cosas sobre las que tienes control absoluto para ser un gran compañero de equipo son: tu actitud, tu esfuerzo y tus acciones. Sin importar lo que esté sucediendo a tu alrededor o lo que consideres que no es justo, todos los días puedes enfocarte en ser positivo, en trabajar duro y hacer sentir mejor a los que te rodean. Si haces esto, grandes cosas pueden suceder.
           </p>
         </div>
+        
 
       </main>
       <div>

@@ -44,20 +44,19 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,27,123,0.53);
 }
+@media(min-width:920px){
+    .flex{
+        display: flex;
+        gap: 3rem;
+    }
+    
+}
 
 @media(min-width:920px){
     .imagen{
-        margin: 2rem;
-        width: 30%;
-        float: left;
-        
-    
+        width:30%;
+        top: 0%;
+        right: 50%;
     }
-}
-.gama{
-    background-color: var(--white);
-    border: 1px solid var(--black);
-    display: block;
-    margin: 0;
 }
 

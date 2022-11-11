@@ -57,5 +57,7 @@
 }
 .navegacion a:hover,
 .active{
+    display: flex;
     background-color: var(--primary);
+    
 }

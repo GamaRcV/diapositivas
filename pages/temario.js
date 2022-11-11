@@ -54,7 +54,7 @@ export default function Temario() {
 
           <div className={styles.equipo}>
             <h2>Unidad 5</h2>
-            <Link href=''>
+            <Link href="https://onedrive.live.com/embed?cid=14BF5B6A7B6AEDEF&amp;resid=14BF5B6A7B6AEDEF%21133&amp;authkey=AJA5C85qhtKxXbo&amp;em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px">
               <a title='Micosis oportunistas y pseudomicosis'>
                 <Image src='/img/pseudomicosis.png' width={335.61} height={188.7} alt='Micosis oportunistas y pseudomicosis' />
               </a>
@@ -63,7 +63,7 @@ export default function Temario() {
 
           <div className={styles.equipo}>
             <h2>Unidad 6</h2>
-            <Link href=''>
+            <Link href="https://onedrive.live.com/embed?cid=14BF5B6A7B6AEDEF&amp;resid=14BF5B6A7B6AEDEF%21135&amp;authkey=ADEVT2OqPJFBGHE&amp;em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px">
               <a title='Otras patologías( nicetismo, micotoxicosis)'>
                 <Image src='/img/micetismo.webp' width={335.61} height={188.7} alt='Otras patologías( nicetismo, micotoxicosis)' />
               </a>

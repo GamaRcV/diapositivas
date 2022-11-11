@@ -8,14 +8,14 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={` ${styles.barra}`}>
-        <div className={styles.flex}>
-        <Image className={styles.gama} title='Firma Gama' src='/img/gama.gif' width={80} height={50} alt='Firma Gama :v'/>
+        
+        
         <Link href='/'>
           <a>
             <Image src='/img/logo2.png' width={150} height={50} alt='logo'/>
           </a>
         </Link>
-        </div>
+
         
 
         <nav className={styles.navegacion}>
